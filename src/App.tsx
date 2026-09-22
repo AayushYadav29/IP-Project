@@ -104,30 +104,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-zinc-900 via-zinc-950 to-black py-6 px-3 sm:py-10">
-      {/* Phone frame */}
-      <div className="relative mx-auto flex h-[780px] max-h-[92vh] w-full max-w-[400px] flex-col overflow-hidden rounded-[2.75rem] border-[6px] border-zinc-800 bg-gradient-to-b from-slate-50 to-slate-100 shadow-2xl shadow-black/60">
-        {/* Notch */}
-        <div className="absolute top-0 left-1/2 z-20 h-6 w-32 -translate-x-1/2 rounded-b-2xl bg-zinc-800" />
-
-        {/* Status bar */}
-        <div className="flex items-center justify-between px-6 pt-3 pb-1 text-[11px] font-semibold text-zinc-800">
-          <span>9:41</span>
-          <div className="flex items-center gap-1">
-            <svg width="16" height="10" viewBox="0 0 16 10" fill="currentColor">
-              <rect x="0" y="6" width="2.5" height="4" rx="0.5" />
-              <rect x="4" y="4" width="2.5" height="6" rx="0.5" />
-              <rect x="8" y="2" width="2.5" height="8" rx="0.5" />
-              <rect x="12" y="0" width="2.5" height="10" rx="0.5" />
-            </svg>
-            <svg width="16" height="10" viewBox="0 0 24 16" fill="none" stroke="currentColor" strokeWidth={1.5}>
-              <rect x="1" y="1" width="19" height="14" rx="3" />
-              <rect x="21.5" y="5" width="1.5" height="6" rx="0.75" fill="currentColor" stroke="none" />
-              <rect x="3" y="3" width="15" height="10" rx="1.5" fill="currentColor" />
-            </svg>
-          </div>
-        </div>
-
+    <div className="flex min-h-screen w-full flex-col bg-gradient-to-b from-slate-50 to-slate-100">
         {/* App header */}
         <header className="flex items-center gap-2.5 px-5 pt-2 pb-3">
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 shadow-md shadow-indigo-300/50">
@@ -256,7 +233,6 @@ export default function App() {
             </div>
           )}
         </main>
-      </div>
     </div>
   );
 }
