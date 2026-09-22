@@ -226,10 +226,6 @@ export default function App() {
                 </button>
               </div>
 
-              <p className="pb-1 text-center text-[10.5px] leading-relaxed text-zinc-400">
-                Made with layered grayscale, blur &amp; "color-dodge" blending —
-                a pure canvas-compositing trick, no image-processing algorithms.
-              </p>
             </div>
           )}
         </main>
